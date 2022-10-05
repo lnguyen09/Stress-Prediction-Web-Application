@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css")
+  body
+
+
+nav(class="navbar navbar-expand-lg navbar-light bg-success")
+    .container-fluid
+      a(class="navbar-brand text-white" href="#") Stress Detection
+      button(class="navbar-toggler" type="button" 
+          data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" 
+          aria-label="Toggle navigation")
+        span(class="navbar-toggler-icon")
+      div(class="collapse navbar-collapse" id="navbarNavAltMarkup")
+        div(class="navbar-nav")
+          a(class="nav-link active text-white" aria-current="page" href="#") Home
+          a(class="nav-link text-white" href="#") Detection Method
+          a(class="nav-link text-white" href="#") Language
+          a(class="nav-link text-white" href="#") About Us
+
+div(class="mt-5 mh-400 row align-items-center")
+<div class="mh-100" style="width: 100px; height: 200px;" ></div>
+  h2(class="text-center text-danger")=message2
+  
